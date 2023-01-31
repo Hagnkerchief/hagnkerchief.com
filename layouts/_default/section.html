@@ -1,0 +1,23 @@
+{{ define "title" }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
+{{ define "style"}}
+ul {
+  padding-inline: 0;
+}
+{{ end }}
+{{ define "header" }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+{{ define "main" }}
+{{ with .Content }}
+<article>
+    {{ . }}
+</article>
+{{ end }}
+{{ with .Pages }}
+<ul>
+    {{ range . }}
+    <li><a href="{{.Permalink}}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ end }}

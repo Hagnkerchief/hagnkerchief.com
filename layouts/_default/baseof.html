@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="data:image/png;base64,">
+	{{ block "meta" . }} {{ end }}
+	<title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
+</head>
+<style type="text/css">
+	@media (prefers-color-scheme: dark){
+		body {color:#fff;background:#000}
+		a:link {color:#009bf5}
+		a:hover, a:visited:hover {color:#def}
+		a:visited {color:#ce7eaa}
+	}
+	body{
+		word-break: break-word;
+		margin:1em auto;
+		max-width:40em;
+		padding:0 .62em;
+		font:1.2em/1.62 sans-serif
+	}
+	h1,h2,h3 {
+		line-height:1.2
+	}
+	footer {
+		text-align:right;
+	}
+	{{ block "style" . }} {{ end }}
+	@media print{
+		body{
+			max-width:none
+		}
+	}
+</style>
+<body>
+	<header id="header">{{ block "header" . }} {{ end }}</header>
+	<main id="main">{{ block "main" . }} {{ end }}</main>
+	<footer id="footer">
+		{{ block "footer" . }} {{ end }}
+		<a class="h-card" href="{{ .Site.BaseURL }}">Hagnkerchief</a>
+	</footer>
+</body>
+</html>

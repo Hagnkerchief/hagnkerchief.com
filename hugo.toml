@@ -1,0 +1,7 @@
+baseURL = 'https://hagnkerchief.com/'
+languageCode = 'en-us'
+title = 'Hagnkerchief'
+disableKinds = ['RSS', 'taxonomy', 'term']
+[permalinks]
+	post = '/:slugorfilename-:year:month:day'
+

@@ -1,0 +1,34 @@
+{{ define "meta" }}
+    {{ range $key, $value := .Params.Relme }}
+    <link rel="me" href="{{ $value }}" />
+    {{ end }}
+{{ end }}
+{{ define "style"}}
+header, main {
+    text-align: center
+}
+button{
+    cursor: pointer;
+    display: block;
+    margin:1em auto;
+    width:100%;
+    min-width: fit-content;
+    font:1.2em/1.62 sans-serif
+}
+{{ end }}
+{{ define "header"}}<h1>{{ .Title }} <img style="height:.8em" src="/img/verification-tick.svg" alt="Verified Profile"></h1>{{ end }}
+{{ define "main" }}
+{{ .Content }}
+<h2>&searr; Latest Stories &swarr;</h2>
+{{ range first 3 .Site.RegularPages}}
+<a href="{{ .Permalink }}" title="{{ .Title }}"><button tabindex="-1">{{ .Title }}</button></a>
+{{ end }}
+<a href="/post" title="Read More"><button tabindex="-1">Read More</button></a>
+<h2>Youtube</h2>
+<a href="{{ .Params.Relme.Youtube }}?sub_confirmation=1" title="Subscribe on Youtube"><button tabindex="-1">Subscribe to my channel</button></a>
+<h2>Bandcamp</h2>
+<a href="https://hagnkerchief.bandcamp.com/album/while-mood-3" title="Purchase my album"><button tabindex="-1">While Mood <3</button></a>
+<a href="{{ .Params.Relme.Bandcamp }}/follow_me" title="Follow my music"><button tabindex="-1">Follow my music</button></a>
+<h2>Itch.io</h2>
+<a href="{{ .Params.Relme.Itch }}/follow_me" title="Follow my games"><button tabindex="-1">Follow my games</button></a>
+{{ end }}
