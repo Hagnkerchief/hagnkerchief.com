@@ -9,13 +9,10 @@
 	<title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
 </head>
 <style type="text/css">
-	@media (prefers-color-scheme: dark){
-		body {color:#fff;background:#000}
-		a:link {color:#009bf5}
-		a:hover, a:visited:hover {color:#def}
-		a:visited {color:#ce7eaa}
+	:root {
+		color-scheme: dark light
 	}
-	body{
+	body {
 		word-break: break-word;
 		margin:1em auto;
 		max-width:40em;
@@ -30,7 +27,7 @@
 	}
 	{{ block "style" . }} {{ end }}
 	@media print{
-		body{
+		body {
 			max-width:none
 		}
 	}
