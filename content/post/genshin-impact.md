@@ -1,0 +1,12 @@
+---
+title: "Genshin Impact"
+date: 2023-09-18T14:14:14-07:00
+---
+
+All that I have been doing for the last month is playing this game. I was invited back by a friend because of the new update and she gave me some helpful tips on which characters I had already would make a good team. I don't really remember why I left before, probably my obsession with Final Fantasy 14 that has subsided for the time being, but obsession with Genshin is also passing by now that I have caught up on the main story.
+
+Logging in to do dailies will still be done for a while longer I imagine. I still have some side goals of characters getting stronger, map completion and trading card game to play, but I just can't stay playing it all day like I could. The balance of grinding out materials, doing dailies and chilling with story to watch made playing the game all day really easy this past month. Now I'm just spending a bunch of time grinding to make a character stronger to grind faster? Or collecting materials for a new character I like even though he will need a new team? Trading Card Game is seperate but the same problems. It too is so casual that a decent deck I made early has carried me through everything. You could make a deck with anyone just the same as you could make a team with anyone, but it means now that I have stuff that works I have less variety and novelty in grinding more.
+
+So here I am writing on my blog for the first time in half a year because I'm bored. Another week until new patch to Genshin brings me some life back, but really I need to find the next obsession and put Genshin on the backburner again. Could I do more writing here? Or maybe work more on my music or video game making again? So many things I've tried before, but anything creative gives me accomplishment and dread. Fear of failure is a big contribution to why I only have what about 3 posts on the blog or 2ish songs on Bandcamp. Doing my best to bring that obsession and joy to contributing to society and not just contributing to gaming.
+
+Sorry that I didn't bother to headline any of this, most of this post is just what was on my mind. Not rereading it or editing it really. Just want to remember how to push it live and take a step to making things regularly.
