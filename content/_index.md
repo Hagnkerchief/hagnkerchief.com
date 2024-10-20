@@ -8,6 +8,7 @@ relme:
  github: "https://github.com/Hagnkerchief"
  twitter: "https://twitter.com/Hagnkerchief"
  reddit: "https://www.reddit.com/user/Hagnkerchief"
+ bluesky: "https://bsky.app/profile/hagnkerchief.com"
 
 ---
 
