@@ -1,7 +1,6 @@
 baseURL = 'https://hagnkerchief.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Hagnkerchief'
 disableKinds = ['RSS', 'taxonomy', 'term']
 [permalinks]
-	post = '/:slugorfilename-:year:month:day'
-
+	post = '/:slugorcontentbasename-:year:month:day'
